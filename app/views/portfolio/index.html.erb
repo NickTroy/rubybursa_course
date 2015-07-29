@@ -1,18 +1,20 @@
-<table>
+<table class="table_data" align="center">
   <tr>
-    <th>Троянов Никита</th>
+    <th id="name">Троянов Никита Александрович</th>
   </tr>
   <tr>
-    <td><img src="/assets/my_foto.jpg" height="300" width="400"></td>
+    <td><%=image_tag("avatar.jpg", id: "avatar")%></td>
     <td>
-    	<table>
-    	  <tr><td><%= link_to 'Обо мне', '#' %></td></tr>
-    	  <tr><td><%= link_to 'Мои работы', '#' %></td></tr>
-        <tr><td><%= link_to 'Сделать заказ', '#' %></td></tr>
-        <tr><td><%= link_to 'Контакты', '#' %></td></tr>
-    	</table>
+      <ul class="links_list">
+        <li><%= link_to 'Обо мне', '#' %></li>
+        <li><%= link_to 'Мои работы', '#' %></li>
+        <li><%= link_to 'Сделать заказ', '#' %></li>
+        <li><%= link_to 'Контакты', '#' %></li>
+      </ul> 
     </td>
   </tr>
+</table>
+
 
 
 

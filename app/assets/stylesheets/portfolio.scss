@@ -1,3 +1,16 @@
-// Place all the styles related to the portfolio controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#avatar {
+	width : 500px;
+	height : 375px;
+}
+
+#name {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+.links_list {
+	list-style-type : none;
+	position: absolute; 
+  top: 20px;
+  font-size: 180%;   
+}
